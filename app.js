@@ -21,3 +21,18 @@ gsap.from(".btn", {
     x: 0,
     duration: 2
 });
+
+
+if (localStorage.getItem('theme')=='light') {
+    setTheme(true);
+}
+
+function setTheme(isLight) {
+    if(isLight) {
+        document.body.setAttribute('id', 'lightMode');
+        localStorage.setItem('theme', 'light');
+    }else{
+        document.body.setAttribute('id', '');
+        localStorage.removeItem('theme');
+    }
+}
