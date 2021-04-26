@@ -41,3 +41,28 @@ h1 {
 .card {
     background-color: rgb(43, 43, 43);
 }
+#lightMode {
+    background-color: aliceblue;
+    color: black;
+}
+
+#lightMode .jumbotron {
+    background-image: linear-gradient( #cecece46,#c0c0c02c), url("asset/images/bg.jpg");
+    height: 100vh;
+    background-size: cover;
+    color: black;
+    text-align: center;
+    background-position:center ;
+    padding-top: 15rem;
+    width: 100%;
+}
+
+#lightMode .card {
+    background-color: cornsilk;
+    color: black;
+}
+
+#lightMode #check {
+    color: black;
+    border-color: black;
+}
