@@ -204,23 +204,24 @@
       </div>
       <div class="container mt-5" id="order">
         <h1>Page Order</h1>
-        <form>
+        <form action="" method="">
           <div class="mb-3">
             <label for="" class="form-label">Full name</label>
-            <input type="text" class="form-control" id="Fullname" aria-describedby="emailHelp">
+            <input type="text" name = "nama" class="form-control" id="Fullname" aria-describedby="emailHelp">
           </div>
           <div class="mb-3">
             <label for="" class="form-label">No-Telp</label>
-            <input type="text" class="form-control" id="No-Telp">
+            <input type="text" name = "phone" class="form-control" id="No-Telp">
           </div>
           <div class="mb-3">
             <label for="Select" class="form-label">Disabled select menu</label>
-            <input type="text" class="form-control" id="select-menu">
+            <input type="text" name = "menu" class="form-control" id="select-menu">
           <div class="mb-3">
             <label for="" class="form-label">Address Customer</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <textarea class="form-control" name = "alamat" id="exampleFormControlTextarea1" rows="3"></textarea>
           </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
+          <button type="submit" name="kirim" class="btn btn-primary">Submit</button>
+          <button type="reset" name="batal" class="btn btn-danger">Batal</button>
         </form>
       </div>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
